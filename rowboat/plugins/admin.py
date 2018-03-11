@@ -334,11 +334,11 @@ class AdminPlugin(Plugin):
         self.cleans[event.channel.id].join()
         del self.cleans[event.channel.id]
 
-		if len(messages) > 1:
-			msg = event.msg.reply(':wastebasket: Successfully deleted {} messages.'.format(
-				len(messages)
-		))
-		
+        if len(messages) > 1:
+             msg = event.msg.reply(':wastebasket: Successfully deleted {} messages.'.format(
+                len(messages)
+        ))
+
     @Plugin.command(
         'add',
         '<user:user> <role:str> [reason:str...]',
