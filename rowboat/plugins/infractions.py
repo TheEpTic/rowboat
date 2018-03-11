@@ -620,7 +620,7 @@ class InfractionsPlugin(Plugin):
             u=member.user if member else user,
         ))
 
-	@Plugin.command('mban', parser=True, level=CommandLevels.MOD)
+    @Plugin.command('mban', parser=True, level=CommandLevels.MOD)
     @Plugin.parser.add_argument('users', type=long, nargs='+')
     @Plugin.parser.add_argument('-r', '--reason', default='', help='reason for modlog')
     def mban(self, event, args):
