@@ -5,8 +5,8 @@ from disco.types.user import GameType, Status
 # Emojis
 GREEN_TICK_EMOJI_ID = 305231298799206401
 RED_TICK_EMOJI_ID = 305231335512080385
-GREEN_TICK_EMOJI = 'green_tick:{}'.format(GREEN_TICK_EMOJI_ID)
-RED_TICK_EMOJI = 'red_tick:{}'.format(RED_TICK_EMOJI_ID)
+GREEN_TICK_EMOJI = 'GreenTick'
+RED_TICK_EMOJI = 'RedTick'
 STAR_EMOJI = u'\U00002B50'
 STATUS_EMOJI = {
     Status.ONLINE: ':status_online:305889169811439617',
